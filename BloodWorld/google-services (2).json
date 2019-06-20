@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "272045561843",
+    "firebase_url": "https://otpauth-7721f.firebaseio.com",
+    "project_id": "otpauth-7721f",
+    "storage_bucket": "otpauth-7721f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272045561843:android:9e72c36d5a63cb27",
+        "android_client_info": {
+          "package_name": "com.example.bloodworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272045561843-j7gmbigtr5spoq0dk8bf2c4cuo67e32o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmBRmUmhlGRYYQBJN8dY3gHstrco080oQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272045561843-j7gmbigtr5spoq0dk8bf2c4cuo67e32o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

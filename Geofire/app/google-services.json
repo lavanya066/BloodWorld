@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "787022728071",
+    "firebase_url": "https://giofirebase-cd571.firebaseio.com",
+    "project_id": "giofirebase-cd571",
+    "storage_bucket": "giofirebase-cd571.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787022728071:android:a9f073d367aaa130",
+        "android_client_info": {
+          "package_name": "com.example.geofire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787022728071-6o69p62dmfueog1d8t8pfgf1nmgvjqun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATSXwlW0aYq-1-iKnpiXabBf1GyBxdHEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787022728071-6o69p62dmfueog1d8t8pfgf1nmgvjqun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

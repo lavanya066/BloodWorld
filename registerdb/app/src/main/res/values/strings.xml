@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">registerdb</string>
+    <string-array name="spinner_list">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Trans</item>
+    </string-array>
+</resources>

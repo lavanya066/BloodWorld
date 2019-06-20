@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="usn">username</string>
+    <string name="pwd">password</string>
+    <string name="wel">WELCOME</string>
+    <string name="cli">click here</string>
+    <string name="title_activity_info">info</string>
+    <string name="cp">confirm password</string>
+    <string name="txt">The web is abuzz about GDPR and its something that website owners cannot ignore While GDPR is focused on websites servicing the EU in reality virtually any website anywhere in the world needs to be concerned about this ruling because so many of us cater to people worldwide The struggle with WordPress is not the implementation, but WordPress user base. While WordPress provides superior CMS support for users from solopreneurs to enterprise organizations, the vast majority of WordPress...</string>
+    <string-array name="spinner_list">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

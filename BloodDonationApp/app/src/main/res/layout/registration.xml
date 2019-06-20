@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <EditText
+                        android:layout_width="150dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/name"
+                        android:hint="name"
+                        android:textAlignment="center"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <EditText
+                            android:layout_width="70dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/agereg"
+                            android:hint="age"
+                            android:textAlignment="center"
+                            android:inputType="number"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+
+
+
+                <RadioGroup
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:id="@+id/male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="male"
+                        />
+                    <RadioButton
+                        android:layout_marginTop="-30dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/female"
+                        android:text="female"/>
+                </RadioGroup>
+
+
+
+
+            </RelativeLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <EditText
+                        android:layout_width="250dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/emailreg"
+                        android:layout_marginLeft="20dp"
+                        android:hint="email"
+                        android:textAlignment="center"
+                        android:inputType="textEmailAddress"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <EditText
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="150dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/usernamereg"
+                        android:hint="username"
+                        android:textAlignment="center"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="#000">
+                    <EditText
+                        android:layout_width="220dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/passwordedit"
+                        android:hint="password"
+                        android:textAlignment="center"
+                        android:inputType="textPassword"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="#000">
+                    <EditText
+                        android:layout_width="220dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/confirmpasswordreg"
+                        android:hint="confirm password"
+                        android:textAlignment="center"
+                        android:inputType="textPassword"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <EditText
+                        android:layout_width="150dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/moblilenoreg"
+                        android:hint="mobile number"
+                        android:textAlignment="center"
+                        android:inputType="number"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <EditText
+                            android:layout_width="120dp"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:id="@+id/otp"
+                            android:hint="otp"
+                            android:autofillHints="#000"
+                            android:textAlignment="center"
+                            />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="200dp"
+                    android:background="@drawable/rounded_corner"
+                    android:backgroundTint="#44BAF0"
+                    android:elevation="8dp"
+                    android:text="SEND"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:paddingTop="20dp"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

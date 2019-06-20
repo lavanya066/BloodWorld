@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#FFF496"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DASHAKAM !"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:layout_marginTop="5dp"/>
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/head">
+    <TextView
+        android:layout_below="@id/head"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+
+        android:layout_height="wrap_content"
+        android:text="\t \t \t \t \t \tsandranandavabodhatmaka\n
+                    manupamitam.k¯alade´s¯avadhibhy¯am.\n
+                    nirmuktam. nityamuktam. nigama´sata\n
+                    sahasren. a nirbh¯asyam¯anam |\n
+                    aspas.t.am.dr.s.t.am¯atre punaruru\n
+                    purus.¯arth¯atmakam. brahma tatvam.\n
+                    tatt¯avadbh¯ati s¯aks.¯adgurupavanapure\n
+                    hanta bh¯agyam.jan¯an¯am || 1 ||\n
+                    evam. durlabhyavastunyapi\n
+                    sulabhatay¯a hastalabdhe yadanyat\n
+                    tanv¯a v¯ac¯a dhiy¯a v¯a bhajati bata janah.
+                    ks.udrataiva sphut.eyam |\n
+                    ete t¯avadvayam.tu sthirataramanas¯a\n
+                    vi´svap¯ıd. ¯apahatyai\n
+                    ni´s´ses.¯atm¯anamenam. gurupavana\n
+                    pur¯adh¯ı´samev¯a´sray¯amah.|| 2 ||\n
+                    sattvam. yattat par¯abhy¯a\n
+                    maparikalanato nirmalam.tena t¯avad\n
+                    bh¯utairbh¯utendriyaiste\n
+                    vapuriti bahu´sah. ´sr¯uyate vy¯asav¯akyam\n |
+                    tat svacchatv¯adyadacch¯aditaparasukha-\n
+                    cidgarbhanirbh¯asar¯upam.\n
+                    tasmin dhany¯a ramante ´srutimatimadhure\n
+                    sugrahe vigrahe te || 3 ||\n
+                    nis. kampe nityap¯urn. e\n
+                    niravadhiparam¯anandap¯ıy¯us.ar¯upe\n
+                    nirl¯ın¯anekamukt¯avalisubhagatame\n
+                    nirmalabrahmasindhau Á\n
+                    kallololl¯asatulyam. khalu\n
+                    vimalataram.\n
+                    satvam¯ahustad¯atm¯a\n
+                    kasm¯anno nis. kal¯astvam.sakal\n
+                    aiti vacastvatkal¯asveva bh¯uman || 4 ||\n"
+        android:layout_marginTop="15dp"
+       android:textAlignment="viewStart"
+        android:textSize="16dp"/>
+</ScrollView>
+
+
+</RelativeLayout>

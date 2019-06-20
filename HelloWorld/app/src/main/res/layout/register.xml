@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usn"
+        />
+<EditText
+    android:id="@+id/usere"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+    android:layout_below="@id/user"
+    android:singleLine="true"
+    />
+    <TextView
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pwd"
+        android:layout_below="@id/usere"/>
+    <EditText
+        android:id="@+id/passe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@id/pass"
+        android:singleLine="true"/>
+    <TextView
+        android:id="@+id/cp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cp"
+        android:layout_below="@id/passe"/>
+    <EditText
+        android:id="@+id/cpe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:layout_below="@id/cp"
+        android:singleLine="true"/>
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:layout_below="@id/cpe"/>
+    <EditText
+        android:id="@+id/emaile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:singleLine="true"
+        />
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="age"
+        android:layout_below="@id/emaile"/>
+    <EditText android:id="@+id/agee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@id/age"/>
+
+  <TextView
+      android:id="@+id/txt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:text="Register"
+      android:textSize="17dp"
+      android:layout_below="@id/selecter"/>
+
+    <Spinner
+        android:id="@+id/selecter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/spinner_list"
+        android:layout_below="@+id/agee">
+
+    </Spinner>
+
+</RelativeLayout>

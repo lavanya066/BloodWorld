@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choose the color you want"/>
+<Button
+    android:id="@+id/blue"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tt"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="300dp"
+    android:text="blue"/>
+    <Button
+        android:id="@+id/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tt"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        android:text="yellow"/>
+    <TextView
+        android:id="@+id/tt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yellow"
+        android:text="Your text here"
+        android:textSize="18dp"/>
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tt1">
+
+    </FrameLayout>
+
+</RelativeLayout>

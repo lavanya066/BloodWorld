@@ -1,0 +1,5 @@
+<root>
+    <item name='java.util.zip.Inflater int inflate(byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.Blocking' />
+    </item>
+</root>

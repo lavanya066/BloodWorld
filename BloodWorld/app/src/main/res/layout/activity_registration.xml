@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FDEAE8"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:elevation="2dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_person"
+        />
+
+    <EditText
+        android:id="@+id/userreg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+       android:layout_marginTop="80dp"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="username"
+        android:textAlignment="center" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:elevation="2dp"
+        android:layout_below="@id/userreg"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_lock_open"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/userreg"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="password"
+        android:textAlignment="center" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:elevation="2dp"
+        android:layout_below="@id/password"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_email"
+        />
+    <EditText
+        android:id="@+id/emailedit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/password"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="email id"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/ageedit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/emailedit"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="age"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/weightedit"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/ageedit"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="weight"
+        android:textAlignment="center" />
+
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weightedit"
+        android:background="@drawable/rounded_corner"
+        android:entries="@array/spinner_list" />
+
+    <Spinner
+        android:id="@+id/countrycall"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender"
+        android:elevation="2dp"
+        android:layout_marginTop="5dp" />
+    <EditText
+        android:id="@+id/phoneedit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+    android:layout_below="@id/gender"
+        android:textAlignment="center"
+    android:background="@drawable/rounded_corner"
+        android:hint="phone number"/>
+    <EditText
+        android:id="@+id/latedit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/phoneedit"
+        android:background="@drawable/rounded_corner"
+        android:hint="latitude"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/lonedit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/latedit"
+        android:background="@drawable/rounded_corner"
+        android:hint="longitude"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_below="@id/lonedit"
+        android:layout_centerHorizontal="true"
+        android:background="#EFE9F0"
+        android:layout_marginTop="30dp"/>
+
+
+
+</RelativeLayout>
